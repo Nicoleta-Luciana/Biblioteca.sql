@@ -3,7 +3,7 @@ Proiectul include tabele pentru autori, cărți, membri și împrumuturi, împre
 
 Proiectul este structurat în mai multe fișiere:
 creare_tabele.sql – conține scriptul pentru crearea tabelelor și a relațiilor dintre ele (chei primare și străine).
-inserare_data.sql – include date de test pentru a verifica funcționarea corectă a tabelelor.
+insert_data.sql – include date de test pentru a verifica funcționarea corectă a tabelelor.
 operatiuni.sql – conține interogări pentru gestionarea împrumuturilor, modificarea statusului cărților și rapoarte;
                - definește view-uri pentru a simplifica interogările și trigger-e pentru automatizarea actualizării statusului cărților în funcție de împrumuturi.
 
